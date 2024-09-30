@@ -24,9 +24,10 @@ Bem-vindo ao **SatoshiToolBox**! Esta é uma aplicação desenvolvida para forne
   $ SatoshiToolBox
   📁 src
   ├── 📁 componentes
-  │   └──── main.java
   ├── 📁 icons
   ├── 📁 modules
+  ├── 📁 main
+  │   └──── main.java
   ├── 📁 utils
   ├── 📁 views
   📄 .gitignore
