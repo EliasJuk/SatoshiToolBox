@@ -1,7 +1,7 @@
 # SatoshiToolBox
 Bem-vindo ao **SatoshiToolBox**! Esta é uma aplicação desenvolvida para fornecer uma variedade de ferramentas úteis para a comunidade de crypto e para entusiastas da computação. Ela oferece uma gama de ferramentas de conversão e funcionalidades que ajudam a simplificar tarefas complexas.
 
---
+---
 
 ## Funcionalidades
 
@@ -16,7 +16,7 @@ Bem-vindo ao **SatoshiToolBox**! Esta é uma aplicação desenvolvida para forne
     - Hexadecimal para binário.
     - Entre outros.
     
---
+---
 
 ### Estrutura da Aplicação
 
@@ -32,7 +32,7 @@ Bem-vindo ao **SatoshiToolBox**! Esta é uma aplicação desenvolvida para forne
   📄 .gitignore
   📄 README.md
 ```
---
+---
 
 ## Contribuição
 Contribuições são bem-vindas! Se você deseja ajudar a melhorar o SatoshiToolBox, sinta-se à vontade para abrir issues ou pull requests.
