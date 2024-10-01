@@ -1,6 +1,7 @@
 package main;
 
 import java.util.Scanner;
+import modules.WIFGenerator;
 import utils.ColorPalette;
 import utils.ConsoleToolkit;
 
@@ -33,7 +34,17 @@ public class main {
 
             switch (scannerMenu) {
                 case 1:
-                    System.out.println("Converting private key to WIF...");
+                    ConsoleToolkit.clearConsole();
+                    System.out.println("Converting private key to WIF...\n");
+                    
+                    System.out.print("INFORME SUA PRIVATE KEY: ");                    
+                    Scanner scanner2 = new Scanner(System.in);
+                    String privateKeyHex = scanner2.nextLine();
+                    
+                    System.out.println(ColorPalette.PINK+"\nWIF: "+WIFGenerator.KeyToWIF(privateKeyHex, true));
+                    
+                    Scanner pause = new Scanner(System.in);
+                    pause.nextLine(); // Aguarda o usuário pressionar Enter
                     break;
                 case 2:
                     System.out.println("Generating public key...");
