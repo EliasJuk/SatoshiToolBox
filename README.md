@@ -35,5 +35,19 @@ Bem-vindo ao **SatoshiToolBox**! Esta é uma aplicação desenvolvida para forne
 ```
 ---
 
+## How To Use
+
+```bash
+
+# How to execute
+$ java -jar dist/SatoshiToolBox.jar
+
+# Run only the menu
+java -jar dist/SatoshiToolBox.jar -M
+
+```
+
+---
+
 ## Contribuição
 Contribuições são bem-vindas! Se você deseja ajudar a melhorar o SatoshiToolBox, sinta-se à vontade para abrir issues ou pull requests.
